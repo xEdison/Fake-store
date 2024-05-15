@@ -35,7 +35,7 @@ export const ProductList = () => {
                         </figure>
                         <div className="info-product flex flex-col justify-between p-4">
                             <h3 className="text-gray-700 font-medium">{product.title}</h3>
-                            <p className="price text-black font-bold">${product.price}</p>
+                            <p className="price text-black font-bold text-center">${product.price}</p>
                             <button className="bg-black text-white border-none block w-full py-5 cursor-pointer mt-auto text-center">Añadir al carrito</button>
                         </div>
                     </div>

@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-     <h1 className="text-3xl font-bold text-center py-8">FakeStore</h1>
+     <h1 className="text-3xl font-bold text-center py-8 bg-slate-400 m">FakeStore</h1>
      <ProductList/>
     </>
   );
